@@ -16,7 +16,7 @@ with open('google_api.json', mode='w', encoding='utf-8') as file:
 
 some_list = [1.0, 2, 3, 4, 5, 6.0001, 7, 8, 255.47, 123.12444, 151, 0.11, 10.02]
 
-result = list(map(lambda data1: str(data1), some_list))
+result = list(map(str, some_list))
 print(result)
 
 
